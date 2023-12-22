@@ -16,7 +16,15 @@ Install dependencies:
 $ npm install
 ```
 
-Review database connection on /lib/connectMongoose.js (see "Start a MongoDB Server in MacOS or Linux")
+### Configure
+
+Copy .env.example to to your custom .env.
+
+```sh
+cp .env.example .env
+```
+
+And setup your configuration.
 
 Load initial data:
 
